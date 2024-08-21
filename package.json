@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/DDH2808/nodejs_blog#readme",
   "lint-staged": {
-    "src/**/*.{js,json,scss}": "prettier --single-quote --trailing-comma all --write"
+    "src/**/*.{js,json,scss}": "prettier --single-quote --trailing-comma all --tab-width 4 --write"
   },
   "husky": {
     "hooks": {
@@ -35,6 +35,7 @@
     "blog": "file:",
     "express": "^4.19.2",
     "express-handlebars": "^8.0.1",
+    "mongoose": "^8.5.3",
     "sass": "^1.77.8"
   },
   "devDependencies": {
